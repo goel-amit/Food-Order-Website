@@ -1,0 +1,145 @@
+@media (max-width:2000px) and (min-width:700px)
+{
+ul li{
+	width:20%;
+	height:50px;
+	float:left;
+	list-style:none;
+	line-height:50px;
+	text-align:center;
+}
+ul li a{
+	text-decoration:none;
+	color:white;
+}
+ul li a:hover{
+	text-decoration:none;
+	color:red;
+}
+#btn{
+	display:none;
+}
+}
+@media (max-width:700px) and (min-width:70px)
+{
+ul li{
+	width:100%;
+	height:50px;
+	list-style:none;
+	line-height:50px;
+	text-align:center;
+}
+ul li a{
+	text-decoration:none;
+	color:white;
+}
+ul li a:hover{
+	text-decoration:none;
+	color:red;
+}	
+#nav{
+	display:none;
+	width:100%;
+	height:auto;
+}
+#btn{
+	display:block;
+}
+}
+#banner{
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/food.jpg');
+	background-size:100% 500px;
+}
+#form{
+	
+	background:silver;
+	z-index:5px;
+	margin-left:20%;
+	margin-top:11%;
+	margin-bottom:11%;
+}
+#admin_order_form{
+	
+	background:silver;
+	z-index:5px;
+	
+	margin-top:5%;
+	margin-bottom:5%;
+}
+
+#adminproduct
+{
+	display:none;
+}
+#adminorder{
+	display:none;
+}
+#adminpay{
+	display:none;
+}
+a:hover{
+	color:red;
+}
+
+/*-- footer --*/
+.footer {
+    background: black;
+    padding: 45px 0;
+    text-align: center;
+    background: url("../img/Coca_Cola_drink-195759.jpg");
+    background-image: url('../img/berry-blue-blueberries-70862.jpg'); 
+    height: 250px;
+    
+}
+.footer h2 a {
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.footer p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.8em;
+    text-align: center;
+    margin: 30px 0;
+}
+.footer p a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer p a:hover {
+    color: #48cfc1;
+}
+.footer ul{
+    text-align: right;
+}
+.vertical_post form input[type="submit"]:hover {
+    background: #30c3b5;
+}
+.footer ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 4px;
+}
+.footer ul li a {
+    width: 25px;
+    height: 25px;
+    display: block;
+}
+.footer ul li a:hover {
+    opacity: 0.5;
+}
+.footer ul li a.face1 {
+    background: url(../img/social.png) no-repeat -39px 0px;
+}
+.footer ul li a.face2 {
+    background: url(../img/social.png) no-repeat -79px 0px;
+}
+.footer ul li a.face3 {
+    background: url(../img/social.png) no-repeat -121px 0px;
+}
+.footer ul li a.face4 {
+    background: url(../img/social.png) no-repeat 0px 0px;
+}
+/*-- //footer --*/
